@@ -1,0 +1,27 @@
+
+.cart-container {
+    padding: 20px;
+  }
+  
+  .cart-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .cart-item {
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .item-image {
+    /* max-width: 100%; */
+    /* height: auto; */
+    height: 200px;
+    width: 200px;
+    border-radius: 4px;
+  }
+  
